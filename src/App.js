@@ -1,12 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-
+import  SpinAnimation from './components/SpinAnimation'
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
+      <SpinAnimation/>
+      <p>
           Welcome to a my CSS animations Libray!
         </p>
        
