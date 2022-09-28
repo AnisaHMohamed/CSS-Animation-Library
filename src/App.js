@@ -1,10 +1,10 @@
 import './App.css';
-import  SpinAnimation from './components/SpinAnimation'
+import  AnimationPreview from './components/AnimationPreview'
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <SpinAnimation/>
+      <AnimationPreview animationName={"Spin"}/>
       <p>
           Welcome to a my CSS animations Libray!
         </p>
