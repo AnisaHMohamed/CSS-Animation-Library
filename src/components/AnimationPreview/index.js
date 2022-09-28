@@ -1,14 +1,26 @@
-import React from 'react'
-import animations from '../animations'
+import React, {useState, useEffect} from 'react'
+import {animations, animationDetails} from '../animations'
 const AnimationPreview = ({animationName}) => {
-console.log(animations[animationName])
-let currentAnimation = animations[animationName]
+  const [description, setDescription] = useState('none')
+  const [css, setCss] = useState('none')
+  const [keyframe, setKeyframe] = useState('none')
+  let currentAnimation = animations[animationName]
+ useEffect(() =>{
+  if (animationName && animationDetails[animationName] ) {
+    setDescription(animationDetails[animationName].description)
+    setCss(animationDetails[animationName].css)
+    setKeyframe(animationDetails[animationName].keyframe)
+  }
+  
+ },[animationName]
+ )
   return (
     <>
     <div>{animationName}</div>
-    <div>The animation Gif</div>
+    <div>{description}</div>
     {currentAnimation()}
-    <div>Code Block of how it works</div>
+    <div>{css}</div>
+    <div>{keyframe}</div>
     <div>Button to Click to Full Page animation</div>
     </>
     )
