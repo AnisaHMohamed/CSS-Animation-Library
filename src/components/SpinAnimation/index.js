@@ -5,7 +5,7 @@ const SpinAnimation = () => {
   return (
     <>
     <div>SpinAnimation</div>
-    <img src={arrow} className="arrow" alt="arrow"/>
+    <div  className="arrow" alt="arrow"></div>
     </>
   )
 }

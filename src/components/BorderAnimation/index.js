@@ -6,7 +6,7 @@ function Border() {
     <div className="container">
     <div className="box">
     <span></span>
-    <h2>Cool!</h2>
+    <h2>Border</h2>
     </div>
     </div>
     )

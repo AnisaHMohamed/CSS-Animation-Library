@@ -1,6 +1,8 @@
 .arrow {
-    height: 30vmin;
+    height: 40px;
+    width: 40px;
     pointer-events: none;
+    background: hotpink;
   }
   
   @media (prefers-reduced-motion: no-preference) {

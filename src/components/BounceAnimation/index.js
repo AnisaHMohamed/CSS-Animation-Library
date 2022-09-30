@@ -5,7 +5,7 @@ const Bounce = () => {
     <>
     <div>Bounce Animation</div>
     <div class="stage">
-    <div class="section bounce-7"></div>
+    <div class="section bounce"></div>
 </div>
     </>
   )
