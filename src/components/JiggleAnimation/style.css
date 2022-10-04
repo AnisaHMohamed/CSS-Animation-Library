@@ -3,7 +3,6 @@
   content: "";
   height: 40px;
   width: 40px;
-  pointer-events: none;
   background: hotpink;
   animation: jiggle infinite 1s alternate ease-out;
 }

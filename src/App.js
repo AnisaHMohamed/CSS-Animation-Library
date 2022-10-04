@@ -19,7 +19,21 @@ function App() {
     animationRoutes.push(`<Route  path="/${animation}" element={${currentAnimation}}/>`)
   }
   console.log(animationRoutes, '<--')
- let spin =   animations['Spin']()
+  let blink =   animations['Blink']()
+  let border =   animations['Border']()
+  // let bounce =   animations['Bounce']()
+   let breathe =   animations['Breathe']()
+  // let floatingBubble =   animations['FloatingBubble']()
+  // let glowingRingsOverlap =   animations['GlowingRingsOverlap']()
+  // let jiggle =   animations['Jiggle']()
+  // let pulse =   animations['Pulse']()
+   let spin =   animations['Spin']()
+  // <Route  path="/bounce" element={bounce}/>
+  // <Route  path="/floatingBubble" element={floatingBubble}/>
+  // <Route  path="/glowingRingsOverlap" element={glowingRingsOverlap}/>
+  // <Route  path="/jiggle" element={jiggle}/>
+  // <Route  path="/pulse" element={pulse}/>
+  // <Route  path="/spin" element={spin}/>
   return (
     <div className="App">
     <BrowserRouter >
@@ -27,8 +41,12 @@ function App() {
     <Routes>
     <Route  path="/test" element={<Test/>}/>
     <Route  path="/" element={<Home/>}/>
+    <Route  path="/breathe" element={breathe}/>
+    <Route  path="/blink" element={blink}/>
+    <Route  path="/border" element={border}/>
     <Route  path="/spin" element={spin}/>
-
+   
+    
     </Routes>
     </header>
 

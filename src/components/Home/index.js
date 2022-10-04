@@ -7,20 +7,23 @@ import Blink from '../BlinkAnimation'
 import Pulse from '../PulseAnimation'
 import Jiggle from '../JiggleAnimation'
 import GlowingRingsOverlap from '../GlowingRingsOverlapAnimation'
-
+// <GlowingRingsOverlap />
+// <Jiggle />
+// <Pulse />
+// <Blink />
+// <Border />
+// <FloatingBubble />
+// <Bounce />
 function Home()
 {
   return (
     <>
-      <GlowingRingsOverlap />
-      <Jiggle />
-      <Pulse />
-      <Blink />
-      <Border />
-      <FloatingBubble />
-      <Bounce />
+     
+      <AnimationPreview animationName={"Breathe"} />
+      <AnimationPreview animationName={"Blink"} />
+      <AnimationPreview animationName={"Border"} />
       <AnimationPreview animationName={"Spin"} />
-      <AnimationPreview animationName={"Breath"} />
+
       <p>
         Welcome to a my CSS animations Libray!
       </p>

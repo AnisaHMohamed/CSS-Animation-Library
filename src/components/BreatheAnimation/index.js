@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.css'
-const SpinAnimation = () => {
+const BreatheAnimation = () => {
   return (
     <>
     <div>Breath Animation</div>
@@ -10,4 +10,4 @@ const SpinAnimation = () => {
 }
 
 
-export default SpinAnimation
+export default BreatheAnimation
