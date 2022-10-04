@@ -1,4 +1,4 @@
-.arrow {
+.spin {
     height: 40px;
     width: 40px;
     pointer-events: none;
@@ -6,11 +6,11 @@
   }
   
   @media (prefers-reduced-motion: no-preference) {
-    .arrow {
-      animation: arrow-spin infinite 5s linear;
+    .spin {
+      animation: spin infinite 5s linear;
     }
   }
-  @keyframes arrow-spin {
+  @keyframes spin {
     from {
         transform: rotate(360deg);
 

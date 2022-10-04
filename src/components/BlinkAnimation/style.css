@@ -1,4 +1,10 @@
 .blink {
+  border-radius: 50%;
+
+  height: 40px;
+  width: 40px;
+  pointer-events: none;
+  background: hotpink;
   animation: blinker 1s linear infinite;
 }
 

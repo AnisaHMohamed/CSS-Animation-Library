@@ -5,10 +5,14 @@ import FloatingBubble from '../FloatingBubbleAnimation'
 import Bounce from '../BounceAnimation'
 import Blink from '../BlinkAnimation'
 import Pulse from '../PulseAnimation'
+import Jiggle from '../JiggleAnimation'
+import GlowingRingsOverlap from '../GlowingRingsOverlapAnimation'
 
 function Home() {
   return (
 <>
+<GlowingRingsOverlap/>
+<Jiggle/>
 <Pulse/>
 <Blink/>
 <Border/>
