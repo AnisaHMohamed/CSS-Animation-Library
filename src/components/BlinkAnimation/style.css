@@ -1,9 +1,8 @@
 .blink {
-  border-radius: 50%;
-
+  content: "";
   height: 40px;
   width: 40px;
-  pointer-events: none;
+  border-radius: 50%;
   background: hotpink;
   animation: blinker 1s linear infinite;
 }

@@ -1,12 +1,11 @@
 import React from 'react'
 import './style.css'
-const Pulse = () => {
+const Pulse = () =>
+{
   return (
     <>
-    <div>Pulse Animation</div>
-    <div class="Pulse">Im Pulsating</div>
-
-
+      <div>Pulse Animation</div>
+      <div class="Pulse"></div>
     </>
   )
 }

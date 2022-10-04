@@ -1,13 +1,11 @@
 import React from 'react'
 import './style.css'
-const Jiggle = () => {
+const Jiggle = () =>
+{
   return (
     <>
-    <div>Jiggle Animation</div>
-   
-    <div class="jiggle"></div>
-   
-
+      <div>Jiggle Animation</div>
+      <div class="jiggle"></div>
     </>
   )
 }

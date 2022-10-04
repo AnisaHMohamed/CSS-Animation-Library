@@ -1,15 +1,12 @@
-import React from 'react'
-import './style.css'
+import React from "react";
+import "./style.css";
 const Bounce = () => {
   return (
     <>
-    <div>Bounce Animation</div>
-    <div class="stage">
-    <div class="section bounce"></div>
-</div>
+      <div className="bounce"></div>
+      <h2>Bounce Animation</h2>
     </>
-  )
-}
+  );
+};
 
-
-export default Bounce
+export default Bounce;
