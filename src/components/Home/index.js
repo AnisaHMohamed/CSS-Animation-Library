@@ -13,15 +13,15 @@ import GlowingRingsOverlap from '../GlowingRingsOverlapAnimation'
 // <Blink />
 // <Border />
 // <FloatingBubble />
-// <Bounce />
 function Home()
 {
   return (
     <>
      
-      <AnimationPreview animationName={"Breathe"} />
-      <AnimationPreview animationName={"Blink"} />
-      <AnimationPreview animationName={"Border"} />
+    <AnimationPreview animationName={"Blink"} />
+    <AnimationPreview animationName={"Border"} />
+    <AnimationPreview animationName={"Bounce"} />
+    <AnimationPreview animationName={"Breathe"} />
       <AnimationPreview animationName={"Spin"} />
 
       <p>
