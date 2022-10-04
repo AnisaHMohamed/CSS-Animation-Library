@@ -5,7 +5,6 @@
   margin: 0 auto;
   border-radius: 100%;
   background-color: hotpink;
-
   animation: stretch 2s ease-out infinite alternate;
 }
 
